@@ -1,0 +1,233 @@
+/*DEVELOPER: Christian MorochoMorocho, IS117-004, Spring 2025 */
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+/* Utility Classes */
+.float-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Top Bar */
+#top-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+#top-bar span {
+  margin-right: 20px;
+}
+
+#top-bar a {
+  color: white;
+  margin-left: 15px;
+}
+
+/* Header */
+header {
+  background-color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  max-height: 80px;
+}
+
+/* Navigation */
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu > li {
+  position: relative;
+  margin-left: 20px;
+}
+
+#menu > li > a {
+  color: #333;
+  font-weight: bold;
+  padding: 10px 0;
+  display: block;
+}
+
+#menu > li > a:hover,
+#menu > li > a.active {
+  color: #0056b3;
+}
+
+#menu > li > ul {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  display: none;
+  z-index: 100;
+  padding: 0;
+  list-style: none;
+}
+
+#menu > li:hover > ul {
+  display: block;
+}
+
+#menu > li > ul > li > a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+}
+
+#menu > li > ul > li > a:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+#mobile-menu {
+  display: none;
+}
+
+/* Page Header */
+#page-header {
+  background-color: #0056b3;
+  color: white;
+  padding: 50px 0;
+}
+
+/* CTA Section */
+#cta-section {
+  background-color: #0056b3;
+  color: white;
+  padding: 60px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 60px 0 20px;
+}
+
+footer h5 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* Feature List */
+.feature-list li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
+
+.feature-list i {
+  color: #0056b3;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* Contact Info */
+.contact-info .icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-info h5 {
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  margin-bottom: 0;
+}
+
+/* Project Tabs */
+.project-tabs {
+  margin-bottom: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #menu {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: block;
+  }
+
+  .float-left {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .float-left {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+  }
+}

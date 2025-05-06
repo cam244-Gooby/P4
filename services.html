@@ -1,0 +1,525 @@
+<!--DEVELOPER: Christian MorochoMorocho, IS117-004, Spring 2025-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services - ProUSA Contractors</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Top Bar - This shows contact info and social links -->
+    <div id="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span><i class="fas fa-map-marker-alt"></i> Buildtown, USA</span>
+            <span><i class="fas fa-phone"></i> 201-724-1650</span>
+          </div>
+          <div class="col-md-6 text-end">
+            <a href="mailto:prousacontractors@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header with Logo and Navigation -->
+    <header>
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Logo -->
+          <div class="col-md-4">
+            <a href="index.html">
+              <img
+                src="images/logo-full.png"
+                alt="ProUSA Contractors Logo"
+                class="logo"
+              />
+            </a>
+          </div>
+          <!-- Navigation Menu -->
+          <div class="col-md-8">
+            <nav>
+              <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                  <a href="services.html" class="active">Services</a>
+                  <ul>
+                    <li><a href="#gutters">Gutter Installation</a></li>
+                    <li><a href="#rehab">Home Rehabilitation</a></li>
+                    <li><a href="#roofing">Roofing Solutions</a></li>
+                    <li><a href="#siding">Siding Installation</a></li>
+                    <li><a href="#sheetrock">Sheetrock & Drywall</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                  <a href="projects.html">Projects</a>
+                  <ul>
+                    <li>
+                      <a href="projects.html#residential"
+                        >Residential Projects</a
+                      >
+                    </li>
+                    <li>
+                      <a href="projects.html#commercial">Commercial Projects</a>
+                    </li>
+                    <li><a href="projects.html#recent">Recent Work</a></li>
+                  </ul>
+                </li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <!-- Mobile Menu - This will appear on small screens -->
+              <div id="mobile-menu"></div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Header - The blue section with the page title -->
+    <section id="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Our Services</h1>
+            <p>Quality residential construction services for your home</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Services Overview -->
+      <section class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2>Comprehensive Residential Services</h2>
+            <p>
+              At ProUSA Contractors, we offer a wide range of residential
+              construction services to meet all your home improvement needs. Our
+              team of skilled professionals is dedicated to delivering
+              high-quality workmanship and exceptional customer service on every
+              project. From gutter installation to complete home rehabilitation,
+              we have the expertise to transform your home.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gutter Installation -->
+      <section id="gutters" class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <!-- Left side with image -->
+            <div class="col-lg-6 mb-4">
+              <img
+                src="images/service-gutters.jpg"
+                alt="Gutter Installation"
+                class="img-fluid rounded"
+              />
+            </div>
+            <!-- Right side with text -->
+            <div class="col-lg-6">
+              <h2>Gutter Installation</h2>
+              <!-- Image with float to wrap text around it -->
+              <img
+                src="images/gutter-detail.jpg"
+                alt="Gutter Detail"
+                class="float-left"
+              />
+              <p>
+                Proper gutter systems are essential for protecting your home
+                from water damage. Our professional gutter installation services
+                ensure that rainwater is effectively channeled away from your
+                home's foundation, preventing costly water damage and erosion.
+                We offer a variety of gutter styles and materials to complement
+                your home's architecture while providing optimal functionality.
+              </p>
+              <p>
+                Our experienced team handles every aspect of the installation
+                process, from measuring and cutting to securing and sealing. We
+                pay close attention to proper slope and alignment to ensure
+                efficient water flow and prevent pooling or overflow. With our
+                quality materials and expert installation, your new gutters will
+                provide years of reliable protection for your home.
+              </p>
+              <!-- Clear the float -->
+              <div class="clearfix"></div>
+              <h4>Our Gutter Services Include:</h4>
+              <!-- List of services -->
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i> Seamless gutter installation
+                </li>
+                <li><i class="fas fa-check"></i> Gutter guard installation</li>
+                <li><i class="fas fa-check"></i> Downspout installation</li>
+                <li>
+                  <i class="fas fa-check"></i> Gutter repair and maintenance
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary"
+                >Get a Free Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home Rehabilitation -->
+      <section id="rehab" class="py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Right side with image (on large screens) -->
+            <div class="col-lg-6 order-lg-2 mb-4">
+              <img
+                src="images/service-rehab.jpg"
+                alt="Home Rehabilitation"
+                class="img-fluid rounded"
+              />
+            </div>
+            <!-- Left side with text (on large screens) -->
+            <div class="col-lg-6 order-lg-1">
+              <h2>Home Rehabilitation</h2>
+              <!-- Image with float to wrap text around it -->
+              <img
+                src="images/rehab-detail.jpg"
+                alt="Rehabilitation Detail"
+                class="float-left"
+              />
+              <p>
+                Whether you're looking to update an older home or repair damage,
+                our home rehabilitation services can help restore your property
+                to its full potential. We specialize in comprehensive renovation
+                projects that address structural issues, improve functionality,
+                and enhance the overall appearance of your home.
+              </p>
+              <p>
+                Our team works closely with you to understand your vision and
+                goals for your home. We handle all aspects of the rehabilitation
+                process, from initial assessment and planning to execution and
+                final inspection. With our expertise and attention to detail, we
+                can transform outdated or damaged spaces into beautiful,
+                functional areas that meet your needs.
+              </p>
+              <!-- Clear the float -->
+              <div class="clearfix"></div>
+              <h4>Our Rehabilitation Services Include:</h4>
+              <!-- List of services -->
+              <ul>
+                <li><i class="fas fa-check"></i> Structural repairs</li>
+                <li><i class="fas fa-check"></i> Interior renovations</li>
+                <li><i class="fas fa-check"></i> Exterior improvements</li>
+                <li><i class="fas fa-check"></i> Energy efficiency upgrades</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary"
+                >Get a Free Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roofing Solutions -->
+      <section id="roofing" class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <!-- Left side with image -->
+            <div class="col-lg-6 mb-4">
+              <img
+                src="images/service-roofing.jpg"
+                alt="Roofing Solutions"
+                class="img-fluid rounded"
+              />
+            </div>
+            <!-- Right side with text -->
+            <div class="col-lg-6">
+              <h2>Roofing Solutions</h2>
+              <!-- Image with float to wrap text around it -->
+              <img
+                src="images/roofing-detail.jpg"
+                alt="Roofing Detail"
+                class="float-left"
+              />
+              <p>
+                Your roof is your home's first line of defense against the
+                elements. Our professional roofing services ensure that your
+                home is protected with a durable, high-quality roof that can
+                withstand harsh weather conditions. Whether you need repairs,
+                replacement, or a new installation, our experienced team has the
+                skills and knowledge to get the job done right.
+              </p>
+              <p>
+                We offer a variety of roofing materials and styles to suit your
+                preferences and budget. Our team will help you select the best
+                option for your home and provide expert installation that meets
+                or exceeds industry standards. With proper installation and
+                quality materials, your new roof will provide reliable
+                protection and enhance your home's curb appeal for years to
+                come.
+              </p>
+              <!-- Clear the float -->
+              <div class="clearfix"></div>
+              <h4>Our Roofing Services Include:</h4>
+              <!-- List of services -->
+              <ul>
+                <li><i class="fas fa-check"></i> Roof installation</li>
+                <li><i class="fas fa-check"></i> Roof replacement</li>
+                <li><i class="fas fa-check"></i> Roof repairs</li>
+                <li><i class="fas fa-check"></i> Roof inspections</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary"
+                >Get a Free Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Siding Installation -->
+      <section id="siding" class="py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Right side with image (on large screens) -->
+            <div class="col-lg-6 order-lg-2 mb-4">
+              <img
+                src="images/service-siding.jpg"
+                alt="Siding Installation"
+                class="img-fluid rounded"
+              />
+            </div>
+            <!-- Left side with text (on large screens) -->
+            <div class="col-lg-6 order-lg-1">
+              <h2>Siding Installation</h2>
+              <!-- Image with float to wrap text around it -->
+              <img
+                src="images/siding-detail.jpg"
+                alt="Siding Detail"
+                class="float-left"
+              />
+              <p>
+                Quality siding not only enhances your home's appearance but also
+                provides essential protection against the elements. Our siding
+                installation services offer a range of materials and styles to
+                suit your preferences and budget. From traditional vinyl to
+                modern fiber cement, we can help you select the perfect siding
+                solution for your home.
+              </p>
+              <p>
+                Our experienced team handles every aspect of the installation
+                process with precision and care. We ensure proper insulation and
+                ventilation to maximize energy efficiency and prevent moisture
+                problems. With our expert installation and quality materials,
+                your new siding will provide lasting beauty and protection for
+                your home.
+              </p>
+              <!-- Clear the float -->
+              <div class="clearfix"></div>
+              <h4>Our Siding Services Include:</h4>
+              <!-- List of services -->
+              <ul>
+                <li><i class="fas fa-check"></i> Vinyl siding installation</li>
+                <li>
+                  <i class="fas fa-check"></i> Fiber cement siding installation
+                </li>
+                <li><i class="fas fa-check"></i> Wood siding installation</li>
+                <li>
+                  <i class="fas fa-check"></i> Siding repair and replacement
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary"
+                >Get a Free Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sheetrock & Drywall -->
+      <section id="sheetrock" class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <!-- Left side with image -->
+            <div class="col-lg-6 mb-4">
+              <img
+                src="images/service-sheetrock.jpg"
+                alt="Sheetrock & Drywall"
+                class="img-fluid rounded"
+              />
+            </div>
+            <!-- Right side with text -->
+            <div class="col-lg-6">
+              <h2>Sheetrock & Drywall</h2>
+              <!-- Image with float to wrap text around it -->
+              <img
+                src="images/sheetrock-detail.jpg"
+                alt="Sheetrock Detail"
+                class="float-left"
+              />
+              <p>
+                Whether you're building a new home, renovating an existing
+                space, or repairing damage, our sheetrock and drywall services
+                provide the smooth, finished surfaces you need. Our skilled team
+                handles everything from installation and taping to finishing and
+                texturing, ensuring a flawless result that's ready for paint or
+                wallpaper.
+              </p>
+              <p>
+                We take pride in our attention to detail and clean work
+                practices. Our team works efficiently to minimize disruption to
+                your home while delivering high-quality results. With our
+                expertise and precision, your walls and ceilings will have a
+                smooth, professional finish that enhances the beauty of your
+                interior spaces.
+              </p>
+              <!-- Clear the float -->
+              <div class="clearfix"></div>
+              <h4>Our Sheetrock & Drywall Services Include:</h4>
+              <!-- List of services -->
+              <ul>
+                <li><i class="fas fa-check"></i> Drywall installation</li>
+                <li><i class="fas fa-check"></i> Drywall repair</li>
+                <li><i class="fas fa-check"></i> Taping and finishing</li>
+                <li><i class="fas fa-check"></i> Texturing and painting</li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary"
+                >Get a Free Quote</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action Section -->
+      <section id="cta-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2>Ready to Start Your Project?</h2>
+              <p>
+                Contact us today for a free consultation and estimate. We're
+                here to help with all your residential construction needs.
+              </p>
+              <div class="mt-4">
+                <a href="contact.html" class="btn btn-light me-2"
+                  >Get a Free Quote</a
+                >
+                <a href="tel:2017241650" class="btn btn-outline-light"
+                  >Call 201-724-1650</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <!-- Footer content in 4 columns -->
+        <div class="row">
+          <!-- Column 1 - About -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <img
+              src="images/logo-full.png"
+              alt="ProUSA Contractors Logo"
+              class="mb-3"
+            />
+            <p>
+              Expert residential services specializing in gutters, rehab,
+              roofing, siding, and sheetrock.
+            </p>
+            <p><strong>LIC #13VH11059500</strong></p>
+            <div class="mb-3">
+              <a href="https://facebook.com" target="_blank" class="me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Column 2 - Services -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#gutters">Gutter Installation</a></li>
+              <li><a href="#rehab">Home Rehabilitation</a></li>
+              <li><a href="#roofing">Roofing Solutions</a></li>
+              <li><a href="#siding">Siding Installation</a></li>
+              <li><a href="#sheetrock">Sheetrock & Drywall</a></li>
+            </ul>
+          </div>
+          <!-- Column 3 - Quick Links -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="reviews.html">Reviews</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- Column 4 - Contact Info -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>Contact Info</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-phone me-2"></i>
+                <span>201-724-1650</span>
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-envelope me-2"></i>
+                <span>info@prousacontractors.com</span>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt me-2"></i>
+                <span>123 Construction Ave, Buildtown, USA</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <!-- Copyright and legal links -->
+        <div class="row">
+          <div class="col-md-6">
+            <p>© 2024 Pro-Usa Contractor LLC. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="privacy.html" class="me-3">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
